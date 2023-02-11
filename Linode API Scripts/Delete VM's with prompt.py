@@ -1,8 +1,8 @@
 import requests
 import json
 
-# API key for authentication
-api_key = "PUT-API-KEY-HERE"
+# Ask the user for their API key
+api_key = input("Enter your API key: ")
 
 # API endpoint for getting a list of instances
 instances_endpoint = "https://api.linode.com/v4/linode/instances"
